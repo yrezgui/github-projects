@@ -8,7 +8,7 @@
     "index-build": "gulp index-build",
     "webpack-watch": "webpack --progress --colors --watch",
     "build": "webpack --progress --colors",
-    "server-watch": "nodemon --watch src index.js"
+    "postinstall": "npm run index-build && npm run build"
   },
   "repository": {
     "type": "git",
