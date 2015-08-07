@@ -8,5 +8,9 @@
 .main-content {
   margin-top: -var(--header-size);
   background: var(--gecko-white);
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+.main-content.simple {
+  height: 100%;
 }

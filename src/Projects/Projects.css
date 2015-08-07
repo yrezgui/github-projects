@@ -1,5 +1,5 @@
 @import "../variables.css";
 
 .projects {
-  border-top: 1px solid var(--gecko-grey);
+  border-bottom: 1px solid var(--gecko-grey);
 }
