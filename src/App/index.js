@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import Header from '../Header';
-import repos from '../repos.json';
+import Projects from '../Projects';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <div className="clearfix">
           <div className="col-6 mx-auto main-content">
             <Header />
-            <div className="px2">Centered Column</div>
+            <Projects />
           </div>
         </div>
       </div>
