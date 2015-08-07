@@ -1,24 +1,51 @@
 @import "../variables.css";
 
-.repository {
+.repository-header {
   height: 48px;
   line-height: 48px;
-  border-bottom: 1px solid var(--gecko-grey);
+  border-top: 1px solid var(--gecko-grey);
 }
 
-.repository a, .repository a:hover {
+.repository-header .name, .repository-header .name:hover {
   font-weight: bold;
   text-decoration: none;
   color: var(--dark-olive);
 }
 
-.repository a:hover {
+.repository-header .name:hover, .repository-header.active .name {
   color: var(--gecko-green);
 }
 
-.repository .stats {
+.repository-header .last-modification {
+  color: var(--olive);
+}
+
+.repository-header .stats {
   color: var(--light-olive);
   width: 55px;
   float: left;
   text-align: center;
+}
+
+.repository-description {
+  color: var(--olive);
+}
+
+.repository-language {
+  background: var(--light-beige);
+  text-align: center;
+}
+
+.repository-language .name {
+  color: var(--gecko-dark-green);
+  font-weight: bold;
+}
+
+.repository-language .percentage {
+  color: var(--light-olive);
+}
+
+.back-to-list {
+  color: var(--gecko-green);
+  text-decoration: none;
 }

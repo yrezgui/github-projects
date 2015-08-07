@@ -35,6 +35,7 @@
     "basscss-type-scale": "^1.0.0",
     "basscss-utility-layout": "^2.0.3",
     "basscss-white-space": "^1.1.2",
+    "moment": "^2.10.6",
     "octicons": "^2.4.1",
     "react": "^0.13.3"
   },
