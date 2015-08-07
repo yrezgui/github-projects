@@ -10,11 +10,11 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className="px2 mx-auto header">
-        <p className="header-title left">
+        <h4 className="header-title left">
           <span className="octicon octicon-octoface"></span> Popular Repositories
-        </p>
+        </h4>
         <p className="header-title right">
-          <img className="rounded" src="1113976.jpeg" /> Yacine Rezgui
+          <img className="rounded" src={profile.avatar_url} /> {profile.name}
         </p>
       </div>
     );
