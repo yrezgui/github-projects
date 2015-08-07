@@ -4,7 +4,7 @@
 @import "basscss-utility-layout";
 @import "basscss-white-space";
 @import "basscss-borders";
-@import "flex-object";
+@import "basscss-type-scale";
 @import "octicons/octicons/octicons.css";
 @import "./variables.css";
 
