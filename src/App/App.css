@@ -1,0 +1,12 @@
+@import "../variables.css";
+
+.header-wrapper {
+  background: var(--gecko-green);
+  height: var(--header-size);
+}
+
+.main-content {
+  margin-top: -var(--header-size);
+  background: var(--gecko-white);
+  height: 100vh;
+}
