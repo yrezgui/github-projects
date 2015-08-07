@@ -1,7 +1,8 @@
 import './main.css'
 import React from 'react';
+import App from './App';
 
 React.render(
-  <h1>Hello World</h1>,
+  <App />,
   document.getElementById('content')
 );
