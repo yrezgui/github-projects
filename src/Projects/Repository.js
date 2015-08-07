@@ -9,7 +9,12 @@ export default class Repository extends React.Component {
   render() {
     return (
       <div className="repository">
-        {this.props.name}
+        <a href="#" className="left h5">{this.props.name}</a>
+        <span className="right stats h6">
+          <span className="octicon octicon-star"></span> 20
+          <span className="octicon octicon-eye"></span> 2
+          <span className="octicon octicon-git-branch"></span> 9000
+        </span>
       </div>
     );
   }

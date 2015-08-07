@@ -5,3 +5,17 @@
   line-height: 48px;
   border-bottom: 1px solid var(--gecko-grey);
 }
+
+.repository a, .repository a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--dark-olive);
+}
+
+.repository a:hover {
+  color: var(--gecko-green);
+}
+
+.repository .stats {
+  color: var(--light-olive);
+}
