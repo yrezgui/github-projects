@@ -1,0 +1,19 @@
+@import "../variables.css";
+
+.header {
+  background: var(--gecko-dark-green);
+  height: var(--header-size);
+  border-bottom: 2px solid var(--grey-beige);
+}
+
+.header-title {
+  color: var(--gecko-white);
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.header-title img {
+  width: 32px;
+  vertical-align: middle;
+}
