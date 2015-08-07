@@ -13,7 +13,7 @@ export default class Header extends React.Component {
         <h4 className="header-title left">
           <span className="octicon octicon-octoface"></span> Popular Repositories
         </h4>
-        <p className="header-title right">
+        <p className="header-title right h5">
           <img className="rounded" src={profile.avatar_url} /> {profile.name}
         </p>
       </div>
