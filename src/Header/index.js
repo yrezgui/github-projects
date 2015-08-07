@@ -1,5 +1,6 @@
+import './Header.css';
 import React from 'react';
-import './Header.css'
+import profile from '../profile.json';
 
 export default class Header extends React.Component {
   constructor(props) {
