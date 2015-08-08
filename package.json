@@ -7,7 +7,7 @@
     "test": "karma start",
     "index-build": "gulp index-build",
     "webpack-watch": "webpack --progress --colors --watch",
-    "build": "webpack --progress --colors",
+    "build": "npm test && npm run index-build && webpack --progress --colors",
     "postinstall": "npm run index-build && npm run build"
   },
   "repository": {
@@ -38,7 +38,8 @@
     "classnames": "^2.1.3",
     "moment": "^2.10.6",
     "octicons": "^2.4.1",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "whatwg-fetch": "^0.9.0"
   },
   "devDependencies": {
     "babel-core": "^5.8.21",
