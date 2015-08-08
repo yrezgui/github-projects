@@ -1,6 +1,5 @@
 import './Header.css';
 import React from 'react';
-import profile from '../profile.json';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -14,7 +13,7 @@ export default class Header extends React.Component {
           <span className="octicon octicon-octoface"></span> Popular Repositories
         </h4>
         <p className="header-title right h5">
-          <img className="rounded" src={profile.avatar_url} /> {profile.name}
+          <img className="rounded" src={this.props.profile.avatar_url} /> {this.props.profile.name}
         </p>
       </div>
     );

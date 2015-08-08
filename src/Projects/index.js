@@ -2,7 +2,6 @@ import './Projects.css';
 import React from 'react';
 import RepositoryItem from './RepositoryItem';
 import RepositoryDetails from './RepositoryDetails';
-import repos from '../repos.json';
 
 export default class Projects extends React.Component {
   constructor(props) {
@@ -10,7 +9,7 @@ export default class Projects extends React.Component {
     this.onSelect = this.onSelect.bind(this);
     this.state = {
       selectedRepository: null,
-      repos: this.generateRepositoriesList(repos)
+      repos: this.generateRepositoriesList(props.repos)
     };
   }
 
