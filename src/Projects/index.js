@@ -1,7 +1,6 @@
 import './Projects.css';
 import React from 'react';
-import RepositoryItem from './RepositoryItem';
-import RepositoryDetails from './RepositoryDetails';
+import Repository from './Repository';
 
 export default class Projects extends React.Component {
   constructor(props) {
@@ -30,17 +29,20 @@ export default class Projects extends React.Component {
   }
 
   render() {
-    if (this.state.selectedRepository) {
-      return (
-        <div className="m3">
-          <RepositoryDetails repo={this.state.selectedRepository} />
-        </div>
-      );
-    }
-
     return (
       <div className="m3 projects">
-      {this.state.repos.map((repo, k) => <RepositoryItem key={k} repo={repo} onSelect={this.onSelect} />)}
+      {this.state.repos.map((repo, key) => {
+        const active = repo === this.state.selectedRepository;
+
+        return (
+          <Repository
+            key={key}
+            repo={repo}
+            onSelect={this.onSelect}
+            active={active}
+          />
+        );
+      })}
       </div>
     );
   }

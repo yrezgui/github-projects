@@ -1,5 +1,13 @@
 @import "../variables.css";
 
+.repository .repository-details {
+  display: none;
+}
+
+.repository.active .repository-details {
+  display: block;
+}
+
 .repository-header {
   height: 48px;
   line-height: 48px;
@@ -18,9 +26,14 @@
 
 .repository-header .last-modification {
   color: var(--olive);
+  display: none;
 }
 
-.repository-header .stats {
+.repository.active .last-modification {
+  display: block;
+}
+
+.repository .stats {
   color: var(--light-olive);
   width: 55px;
   float: left;
