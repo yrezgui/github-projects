@@ -3,7 +3,7 @@
 [![NPM dependencies](https://david-dm.org/yrezgui/github-projects.svg)](https://david-dm.org/yrezgui/github-projects)
 [![License](https://img.shields.io/github/license/yrezgui/github-projects.svg)](https://github.com/yrezgui/github-projects/blob/master/LICENSE)
 
-Nice view to display the GitHub projects of a user. Check the demo [here](http://www.yrezgui/github-projects).
+Nice view to display the GitHub projects of a user. Check the demo [here](http://www.yrezgui.com/github-projects/).
 
 ## Getting started
 Run these commands
