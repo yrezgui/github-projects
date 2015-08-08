@@ -1,6 +1,6 @@
 # Github Projects
-![Build status](https://api.travis-ci.org/yrezgui/github-projects.svg)
-![NPM dependencies](https://david-dm.org/yrezgui/github-projects.svg)
+[![Build status](https://api.travis-ci.org/yrezgui/github-projects.svg)](https://travis-ci.org/yrezgui/github-projects/)
+[![NPM dependencies](https://david-dm.org/yrezgui/github-projects.svg)](https://david-dm.org/yrezgui/github-projects)
 
 Nice view to display the GitHub projects of a user
 
